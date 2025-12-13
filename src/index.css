@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+
+:root {
+  /* Backgrounds */
+  --bg: #0f172a;
+  --card: #1e293b;
+
+  /* Text */
+  --text: #f8fafc;
+  --muted: #94a3b8;
+
+  /* Brand */
+  --primary: #38bdf8;
+
+  /* UI */
+  --border: rgba(148, 163, 184, 0.2);
+}
+
+/* Light Theme */
+.light {
+  --bg: #f8fafc;
+  --card: #e2e8f0;
+
+  --text: #0f172a;
+  --muted: #475569;
+
+  --primary: #0284c7;
+  --border: rgba(15, 23, 42, 0.15);
+}
+
+
+
+
+html,
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
+
+* {
+  border-color: var(--border);
+}
+
+/* Smooth UI */
+button,
+input,
+select {
+  outline: none;
+}

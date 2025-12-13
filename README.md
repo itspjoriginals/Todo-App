@@ -1,62 +1,53 @@
-# 📝 React Todo App
+# 🚀 TaskFlow – Modern Task Management App
 
-A simple, fast, and responsive **Todo Application** built using **React.js**.  
-This application helps users organize and manage their daily tasks efficiently through a clean and intuitive user interface.
-
----
-
-## 🚀 Features
-
-- ➕ Add new tasks
-- ✏️ Edit existing tasks
-- ✅ Mark tasks as completed or pending
-- 🗑️ Delete tasks
-- 📱 Fully responsive design
-- ⚡ Optimized performance using React Hooks
+TaskFlow is a **production-grade task management application** built with **React + Vite**, focused on clean architecture, smooth UX, and real-world features.  
+This project marks my transition from learning React to building **scalable, interview-ready applications**.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-- **React.js**
-- **JavaScript (ES6+)**
-- **HTML5**
-- **CSS3**
-- **React Hooks** (`useState`, `useEffect`)
+- ✅ Create, complete & delete tasks
+- ♻️ Undo delete with toast notifications
+- 🔍 Search & filter tasks (All / Active / Completed)
+- 🏷 Priority levels (Low / Medium / High)
+- ⏰ Due date support with overdue highlighting
+- 📊 Progress indicator
+- 🌗 Dark / Light mode toggle
+- 💾 Persistent storage using LocalStorage
+- 🎞 Smooth animations using Framer Motion
+- 🎨 Modern UI with Tailwind CSS v4
 
 ---
 
-## 📂 Project Structure
+## 🛠 Tech Stack
 
-```txt
-src/
-├── components/
-│   ├── TodoForm.jsx
-│   ├── TodoList.jsx
-│   └── TodoItem.jsx
-├── App.js
-├── index.js
-└── styles.css
+- **Frontend:** React (JavaScript)
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS v4.1
+- **Animations:** Framer Motion
+- **State Management:** useReducer + custom hooks
+- **Persistence:** LocalStorage
+
+---
 
 ## ⚙️ Installation & Setup
 
 Follow the steps below to run this project locally:
 
-### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/react-todo-app.git
+# Clone the repository
+git clone https://github.com/your-username/taskflow.git
 
-### 2️⃣ Navigate to the project directory
-```bash
-cd react-todo-app
+# Navigate to project directory
+cd taskflow
 
-### 3️⃣ Install dependencies
-```bash
+# Install dependencies
 npm install
 
-### 4️⃣ Start the development server
-```bash
-npm start
+# Start development server
+npm run dev
+
 
 
 📍 The application will be available at:
